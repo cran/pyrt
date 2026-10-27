@@ -1,0 +1,28 @@
+Package: pyrt
+Title: Runtime Support for Converted 'Python' Packages
+Version: 0.1.0
+Authors@R: c(
+    person("Yee How", "Lau", role = c("aut", "cre", "cph"),
+           email = "lauyeehow1986@gmail.com")
+  )
+Description: Provides the 'Python' runtime semantics required by 'R' packages
+    generated with 'pyport', including reference-semantics containers, class
+    and method-resolution-order dispatch, exception hierarchies, iteration and
+    slicing helpers, arbitrary-precision integer arithmetic, and bit-exact
+    random number generation.
+License: MIT + file LICENSE
+URL: https://github.com/lauyeehow1986-hub/r_python_converter
+BugReports: https://github.com/lauyeehow1986-hub/r_python_converter/issues
+Encoding: UTF-8
+Depends: R (>= 4.3.0)
+Imports: gmp (>= 0.7-1), R6 (>= 2.5.1), stats, utils
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3
+NeedsCompilation: yes
+Packaged: 2026-10-17 11:11:04 UTC; lauye
+Author: Yee How Lau [aut, cre, cph]
+Maintainer: Yee How Lau <lauyeehow1986@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-27 18:00:08 UTC
